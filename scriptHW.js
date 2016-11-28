@@ -57,7 +57,7 @@ var result = array.reduce(function (sum, val) {
     return sum + val;
 })
 var endSumming = new Date() * 1000;
-console.log(result);
+console.log('Сумма элементов массива: ' + result);
 
 
 console.log('Время формирования массива - ' + (endDate - startDate));
